@@ -1,0 +1,25 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+#editor,
+#preview {
+  padding: 2em;
+  margin: 1em auto;
+}
+#editor {
+  display: block;
+  width: 60%;
+  height: 400px;
+  background: lightGray;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#preview {
+  width: 80%;
+  background: gray;
+  color: white;
+}
